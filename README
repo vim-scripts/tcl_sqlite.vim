@@ -1,0 +1,8 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1716
+
+Adds sqlite syntax to tcl.vim (vimscript #1603)
+
+Words that (can) conflict with Tcl
+        eval -  overrides eval as a secondary command for interp. 
+                   This should really not be a problem.
+
